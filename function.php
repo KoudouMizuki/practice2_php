@@ -17,5 +17,18 @@
     
     echo rand(10, 15);
   ?>
+  
+  <?php
+    function hello() {
+      echo "Hello,World!";
+    }
+    hello();
+    echo '<br/>';
+    
+    function printRectangleArea($height, $width) {
+      echo $height * $width;
+    }
+    printRectangleArea(5, 10);
+    ?>
   </body>
 </html>
