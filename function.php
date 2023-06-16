@@ -7,14 +7,15 @@
   </head>
 
   <body>
-    <?php
-      $i = 2;
-      while($i <= 100) {
-        if($i % 2 == 0) {
-          echo $i. '<br>';
-        }
-       $i ++;
-      }
-    ?>
+  <?php
+    $str = 'Progate';
+    echo strlen($str);
+    echo '<br>';
+    
+    $array = array("HTML", "CSS", "PHP");
+    echo count($array);
+    
+    echo rand(10, 15);
+  ?>
   </body>
 </html>
